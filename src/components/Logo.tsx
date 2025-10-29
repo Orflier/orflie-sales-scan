@@ -8,7 +8,7 @@ const Logo = ({
   className = ""
 }: LogoProps) => {
   return <div className={`flex items-center gap-2 ${className}`}>
-      <img src={orflieCircle} alt="Orflie Logo" className="h-10 w-10" />
+      <img src={orflieCircle} alt="Orflie Logo" className="h-14 w-auto" />
       <div className="flex flex-col leading-tight">
         
         
