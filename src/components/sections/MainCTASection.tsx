@@ -53,14 +53,8 @@ const MainCTASection = () => {
 
             {/* CTA Button */}
             <div className="text-center mb-6">
-              <CTAButton size="xl" showArrow className="w-full md:w-auto" asChild>
-                <a
-                  href={`https://wa.me/5511917848251?text=${encodeURIComponent("Gostaria de marcar uma reunião para o raio x comercial")}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  QUERO MEU RAIO-X GRATUITO
-                </a>
+              <CTAButton size="xl" showArrow className="w-full md:w-auto">
+                QUERO MEU RAIO-X GRATUITO
               </CTAButton>
             </div>
 

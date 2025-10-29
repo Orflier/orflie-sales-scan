@@ -23,20 +23,13 @@ const FinalCTASection = () => {
 
           {/* CTA Button */}
           <div className="mb-8 max-w-2xl mx-auto">
-            <CTAButton
-              variant="secondary"
+            <CTAButton 
+              variant="secondary" 
               size="xl"
               showArrow
               className="shadow-2xl"
-              asChild
             >
-              <a
-                href={`https://wa.me/5511917848251?text=${encodeURIComponent("Gostaria de marcar uma reunião para o raio x comercial")}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                QUERO MEU RAIO-X COMERCIAL GRATUITO
-              </a>
+              QUERO MEU RAIO-X COMERCIAL GRATUITO
             </CTAButton>
           </div>
 
