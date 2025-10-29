@@ -46,8 +46,14 @@ const HeroSection = () => {
 
           {/* CTA Button */}
           <div className="max-w-md mx-auto">
-            <CTAButton size="xl" showArrow>
-              QUERO MEU RAIO-X COMERCIAL
+            <CTAButton size="xl" showArrow asChild>
+              <a
+                href={`https://wa.me/5511917848251?text=${encodeURIComponent("Gostaria de marcar uma reunião para o raio x comercial")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                QUERO MEU RAIO-X COMERCIAL
+              </a>
             </CTAButton>
           </div>
         </div>

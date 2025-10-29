@@ -63,9 +63,9 @@ const WhatIsSection = () => {
         {/* Before/After Visual */}
         <div className="mt-12 sm:mt-16 max-w-4xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-6 sm:gap-8 items-center">
-            <Card className="p-6 sm:p-8 bg-destructive/10 border-destructive/20">
-              <h4 className="text-xl sm:text-2xl font-bold text-destructive mb-3 sm:mb-4">Antes</h4>
-              <ul className="space-y-2 text-sm sm:text-base text-muted-foreground">
+            <Card className="p-6 sm:p-8 bg-red-600 border-red-700">
+              <h4 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Antes</h4>
+              <ul className="space-y-2 text-sm sm:text-base text-white">
                 <li>✗ Processos desorganizados</li>
                 <li>✗ Vendas imprevisíveis</li>
                 <li>✗ Time sem direção clara</li>

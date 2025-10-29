@@ -7,14 +7,18 @@ interface CTAButtonProps {
   variant?: "primary" | "secondary";
   size?: "default" | "lg" | "xl";
   showArrow?: boolean;
+  onClick?: () => void;
+  asChild?: boolean;
 }
 
-const CTAButton = ({ 
-  children, 
-  className = "", 
+const CTAButton = ({
+  children,
+  className = "",
   variant = "primary",
   size = "default",
-  showArrow = false 
+  showArrow = false,
+  onClick,
+  asChild = false
 }: CTAButtonProps) => {
   const sizeClasses = {
     default: "px-4 sm:px-8 py-3 sm:py-4 text-sm sm:text-base",
@@ -29,6 +33,8 @@ const CTAButton = ({
 
   return (
     <Button
+      onClick={onClick}
+      asChild={asChild}
       className={`
         ${variantClasses[variant]}
         ${sizeClasses[size]}
