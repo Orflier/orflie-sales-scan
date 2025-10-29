@@ -22,14 +22,14 @@ const profiles = [
 
 const ForWhoSection = () => {
   return (
-    <section className="py-20 bg-white">
-      <div className="container mx-auto px-4 lg:px-8">
+    <section className="py-16 sm:py-20 bg-white">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Title */}
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4 font-['Montserrat']">
+        <div className="text-center mb-12 sm:mb-16 animate-fade-in">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-3 sm:mb-4 font-['Montserrat'] break-words px-2">
             Para Quem É Esta Auditoria?
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto break-words px-4">
             Não é para todo mundo. É para quem está pronto para mudar.
           </p>
         </div>
@@ -39,16 +39,16 @@ const ForWhoSection = () => {
           {profiles.map((profile, index) => (
             <Card 
               key={index}
-              className="p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 animate-fade-in"
+              className="p-6 sm:p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 animate-fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="flex items-start gap-4">
-                <CheckCircle className="text-accent flex-shrink-0 mt-1" size={32} />
+              <div className="flex items-start gap-3 sm:gap-4">
+                <CheckCircle className="text-accent flex-shrink-0 mt-1" size={28} />
                 <div>
-                  <h3 className="text-xl font-bold text-primary mb-2">
+                  <h3 className="text-base sm:text-lg md:text-xl font-bold text-primary mb-2 break-words">
                     {profile.title}
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-sm sm:text-base text-muted-foreground leading-relaxed break-words">
                     {profile.description}
                   </p>
                 </div>
@@ -58,23 +58,23 @@ const ForWhoSection = () => {
         </div>
 
         {/* Not For Section */}
-        <div className="mt-16 max-w-3xl mx-auto">
-          <Card className="p-8 bg-muted border-muted-foreground/20">
-            <h3 className="text-2xl font-bold text-primary mb-6 text-center">
+        <div className="mt-12 sm:mt-16 max-w-3xl mx-auto px-4">
+          <Card className="p-6 sm:p-8 bg-muted border-muted-foreground/20">
+            <h3 className="text-xl sm:text-2xl font-bold text-primary mb-4 sm:mb-6 text-center break-words">
               Não É Para Você Se:
             </h3>
-            <ul className="space-y-3 text-muted-foreground">
+            <ul className="space-y-3 text-sm sm:text-base text-muted-foreground">
               <li className="flex items-start gap-3">
-                <span className="text-destructive font-bold">✗</span>
-                <span>Você ainda não tem um produto ou serviço validado no mercado</span>
+                <span className="text-destructive font-bold flex-shrink-0">✗</span>
+                <span className="break-words">Você ainda não tem um produto ou serviço validado no mercado</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-destructive font-bold">✗</span>
-                <span>Você busca soluções mágicas sem estar disposto a implementar mudanças</span>
+                <span className="text-destructive font-bold flex-shrink-0">✗</span>
+                <span className="break-words">Você busca soluções mágicas sem estar disposto a implementar mudanças</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-destructive font-bold">✗</span>
-                <span>Você quer apenas teoria e não está pronto para ação imediata</span>
+                <span className="text-destructive font-bold flex-shrink-0">✗</span>
+                <span className="break-words">Você quer apenas teoria e não está pronto para ação imediata</span>
               </li>
             </ul>
           </Card>

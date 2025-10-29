@@ -29,25 +29,24 @@ const MainCTASection = () => {
               </div>
             </div>
 
-            {/* Title */}
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-6 text-center font-['Montserrat']">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4 sm:mb-6 text-center font-['Montserrat'] break-words px-2">
               RAIO-X COMERCIAL GRATUITO (15 MIN)
             </h2>
 
-            <p className="text-xl text-center text-muted-foreground mb-8">
+            <p className="text-base sm:text-lg md:text-xl text-center text-muted-foreground mb-6 sm:mb-8 break-words">
               Antes de fechar qualquer coisa, vamos fazer um diagnóstico rápido e gratuito da sua operação
             </p>
 
             {/* Benefits */}
-            <div className="space-y-4 mb-10">
+            <div className="space-y-4 mb-8 sm:mb-10">
               {benefits.map((benefit, index) => (
                 <div 
                   key={index}
                   className="flex items-start gap-3 animate-fade-in"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
-                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={24} />
-                  <span className="text-lg text-foreground">{benefit}</span>
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={20} />
+                  <span className="text-base sm:text-lg text-foreground break-words text-left">{benefit}</span>
                 </div>
               ))}
             </div>
@@ -60,14 +59,14 @@ const MainCTASection = () => {
             </div>
 
             {/* Time Indicator */}
-            <div className="flex items-center justify-center gap-2 text-muted-foreground">
-              <Clock size={20} />
-              <span>Leva apenas 15 minutos • Sem compromisso</span>
+            <div className="flex items-center justify-center gap-2 text-muted-foreground mb-6">
+              <Clock size={18} className="flex-shrink-0" />
+              <span className="text-sm sm:text-base break-words">Leva apenas 15 minutos • Sem compromisso</span>
             </div>
 
             {/* Trust Element */}
-            <div className="mt-8 pt-8 border-t border-border text-center">
-              <p className="text-sm text-muted-foreground">
+            <div className="pt-6 sm:pt-8 border-t border-border text-center">
+              <p className="text-xs sm:text-sm text-muted-foreground break-words">
                 🔒 Seus dados estão seguros. Não compartilhamos informações com terceiros.
               </p>
             </div>

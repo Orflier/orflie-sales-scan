@@ -34,14 +34,14 @@ const cases = [
 
 const CaseStudiesSection = () => {
   return (
-    <section className="py-20 bg-secondary" id="portfolio">
-      <div className="container mx-auto px-4 lg:px-8">
+    <section className="py-16 sm:py-20 bg-secondary" id="portfolio">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Title */}
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4 font-['Montserrat']">
+        <div className="text-center mb-12 sm:mb-16 animate-fade-in">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-3 sm:mb-4 font-['Montserrat'] break-words px-2">
             Resultados Que Falam Por Si
           </h2>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground break-words px-4">
             Empresas reais. Números reais. Transformação real.
           </p>
         </div>
@@ -55,46 +55,46 @@ const CaseStudiesSection = () => {
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               {/* Company Header */}
-              <div className="bg-primary p-6">
-                <h3 className="text-2xl font-bold text-white mb-2">
+              <div className="bg-primary p-4 sm:p-6">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white mb-2 break-words">
                   {caseStudy.company}
                 </h3>
               </div>
 
               {/* Before/After Comparison */}
-              <div className="p-6">
-                <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <div className="p-4 sm:p-6">
+                <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 mb-4 sm:mb-6">
                   {/* Before */}
-                  <div className="space-y-3">
-                    <h4 className="text-lg font-bold text-destructive flex items-center gap-2">
-                      <div className="w-3 h-3 rounded-full bg-destructive"></div>
+                  <div className="space-y-2 sm:space-y-3">
+                    <h4 className="text-base sm:text-lg font-bold text-destructive flex items-center gap-2">
+                      <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-destructive flex-shrink-0"></div>
                       Antes
                     </h4>
-                    <div className="space-y-2 text-sm text-muted-foreground">
-                      <p>{caseStudy.before.metric1}</p>
-                      <p>{caseStudy.before.metric2}</p>
-                      <p>{caseStudy.before.metric3}</p>
+                    <div className="space-y-1 sm:space-y-2 text-xs sm:text-sm text-muted-foreground">
+                      <p className="break-words">{caseStudy.before.metric1}</p>
+                      <p className="break-words">{caseStudy.before.metric2}</p>
+                      <p className="break-words">{caseStudy.before.metric3}</p>
                     </div>
                   </div>
 
                   {/* After */}
-                  <div className="space-y-3">
-                    <h4 className="text-lg font-bold text-accent flex items-center gap-2">
-                      <div className="w-3 h-3 rounded-full bg-accent"></div>
+                  <div className="space-y-2 sm:space-y-3">
+                    <h4 className="text-base sm:text-lg font-bold text-accent flex items-center gap-2">
+                      <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-accent flex-shrink-0"></div>
                       Depois
                     </h4>
-                    <div className="space-y-2 text-sm font-medium text-foreground">
-                      <p>{caseStudy.after.metric1}</p>
-                      <p>{caseStudy.after.metric2}</p>
-                      <p>{caseStudy.after.metric3}</p>
+                    <div className="space-y-1 sm:space-y-2 text-xs sm:text-sm font-medium text-foreground">
+                      <p className="break-words">{caseStudy.after.metric1}</p>
+                      <p className="break-words">{caseStudy.after.metric2}</p>
+                      <p className="break-words">{caseStudy.after.metric3}</p>
                     </div>
                   </div>
                 </div>
 
                 {/* Revenue Badge */}
-                <div className="bg-accent text-white px-6 py-4 rounded-lg text-center">
-                  <p className="text-sm font-medium mb-1">Receita Extra</p>
-                  <p className="text-3xl font-bold">{caseStudy.revenue}</p>
+                <div className="bg-accent text-white px-4 sm:px-6 py-3 sm:py-4 rounded-lg text-center">
+                  <p className="text-xs sm:text-sm font-medium mb-1">Receita Extra</p>
+                  <p className="text-2xl sm:text-3xl font-bold whitespace-nowrap">{caseStudy.revenue}</p>
                 </div>
 
                 {/* Mini Chart Visualization */}
