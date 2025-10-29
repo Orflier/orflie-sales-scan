@@ -1,12 +1,39 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/Navbar";
+import FloatingCTA from "@/components/FloatingCTA";
+import HeroSection from "@/components/sections/HeroSection";
+import ProblemSection from "@/components/sections/ProblemSection";
+import WhatIsSection from "@/components/sections/WhatIsSection";
+import LeaksSection from "@/components/sections/LeaksSection";
+import ProcessSection from "@/components/sections/ProcessSection";
+import CaseStudiesSection from "@/components/sections/CaseStudiesSection";
+import ForWhoSection from "@/components/sections/ForWhoSection";
+import MainCTASection from "@/components/sections/MainCTASection";
+import GuaranteesSection from "@/components/sections/GuaranteesSection";
+import ROISection from "@/components/sections/ROISection";
+import FinalCTASection from "@/components/sections/FinalCTASection";
+import Footer from "@/components/sections/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background font-['Inter']">
+      <Navbar />
+      <FloatingCTA />
+      
+      <main>
+        <HeroSection />
+        <ProblemSection />
+        <WhatIsSection />
+        <LeaksSection />
+        <ProcessSection />
+        <CaseStudiesSection />
+        <ForWhoSection />
+        <MainCTASection />
+        <GuaranteesSection />
+        <ROISection />
+        <FinalCTASection />
+      </main>
+
+      <Footer />
     </div>
   );
 };
