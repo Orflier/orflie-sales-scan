@@ -50,9 +50,11 @@ const HeroSection = () => {
           </div>
 
           {/* CTA Button */}
-          <CTAButton size="xl" showArrow>
-            QUERO MEU RAIO-X COMERCIAL
-          </CTAButton>
+          <div className="max-w-md mx-auto">
+            <CTAButton size="xl" showArrow>
+              QUERO MEU RAIO-X COMERCIAL
+            </CTAButton>
+          </div>
         </div>
       </div>
 

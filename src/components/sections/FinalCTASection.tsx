@@ -22,7 +22,7 @@ const FinalCTASection = () => {
           </p>
 
           {/* CTA Button */}
-          <div className="mb-8">
+          <div className="mb-8 max-w-2xl mx-auto">
             <CTAButton 
               variant="secondary" 
               size="xl"
