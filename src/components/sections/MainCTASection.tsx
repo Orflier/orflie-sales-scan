@@ -10,7 +10,7 @@ const benefits = [
 
 const MainCTASection = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-primary to-primary-dark relative overflow-hidden" id="contato">
+    <section className="min-h-screen py-20 bg-gradient-to-br from-primary to-primary-dark relative overflow-hidden" id="contato">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{

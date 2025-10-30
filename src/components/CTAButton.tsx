@@ -7,6 +7,7 @@ interface CTAButtonProps {
   variant?: "primary" | "secondary";
   size?: "default" | "lg" | "xl";
   showArrow?: boolean;
+  href?: string;
 }
 
 const CTAButton = ({ 
@@ -14,7 +15,8 @@ const CTAButton = ({
   className = "", 
   variant = "primary",
   size = "default",
-  showArrow = false 
+  showArrow = false,
+  href = "https://forms.gle/QbcGj4i5G3Hxtwwo9"
 }: CTAButtonProps) => {
   const sizeClasses = {
     default: "px-4 sm:px-8 py-3 sm:py-4 text-sm sm:text-base",
@@ -29,6 +31,7 @@ const CTAButton = ({
 
   return (
     <Button
+      asChild
       className={`
         ${variantClasses[variant]}
         ${sizeClasses[size]}
@@ -38,8 +41,10 @@ const CTAButton = ({
         ${className}
       `}
     >
-      <span className="inline-block">{children}</span>
-      {showArrow && <ArrowRight className="ml-2 flex-shrink-0" />}
+      <a href={href} target="_blank" rel="noopener noreferrer">
+        <span className="inline-block">{children}</span>
+        {showArrow && <ArrowRight className="ml-2 flex-shrink-0" />}
+      </a>
     </Button>
   );
 };

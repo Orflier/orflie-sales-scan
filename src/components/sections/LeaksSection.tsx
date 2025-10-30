@@ -12,7 +12,7 @@ const leaks = [
 
 const LeaksSection = () => {
   return (
-    <section className="py-16 sm:py-20 bg-primary-dark relative overflow-hidden">
+    <section className="min-h-screen py-16 sm:py-20 bg-primary-dark relative overflow-hidden">
       {/* Subtle Pattern Background */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{

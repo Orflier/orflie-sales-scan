@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-import FloatingCTA from "@/components/FloatingCTA";
 import HeroSection from "@/components/sections/HeroSection";
 import ProblemSection from "@/components/sections/ProblemSection";
 import WhatIsSection from "@/components/sections/WhatIsSection";
@@ -17,7 +16,6 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background font-['Inter']">
       <Navbar />
-      <FloatingCTA />
       
       <main>
         <HeroSection />
