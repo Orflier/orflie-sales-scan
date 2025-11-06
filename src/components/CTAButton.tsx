@@ -7,7 +7,8 @@ interface CTAButtonProps {
   variant?: "primary" | "secondary";
   size?: "default" | "lg" | "xl";
   showArrow?: boolean;
-  href?: string;
+  action?: "whatsapp" | "form";
+  whatsappMessage?: string;
 }
 
 const CTAButton = ({ 
@@ -16,8 +17,13 @@ const CTAButton = ({
   variant = "primary",
   size = "default",
   showArrow = false,
-  href = "https://forms.gle/QbcGj4i5G3Hxtwwo9"
+  action = "form",
+  whatsappMessage = "Olá, gostaria de saber mais sobre a Auditoria Comercial"
 }: CTAButtonProps) => {
+  const phoneNumber = "5515981103458";
+  const href = action === "whatsapp" 
+    ? `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`
+    : "https://forms.gle/QbcGj4i5G3Hxtwwo9";
   const sizeClasses = {
     default: "px-4 sm:px-8 py-3 sm:py-4 text-sm sm:text-base",
     lg: "px-6 sm:px-10 py-4 sm:py-5 text-base sm:text-lg",

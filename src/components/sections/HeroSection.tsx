@@ -44,10 +44,22 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* CTA Button */}
-          <div className="max-w-md mx-auto">
-            <CTAButton size="xl" showArrow>
+          {/* CTA Buttons */}
+          <div className="flex flex-col gap-4 max-w-md mx-auto">
+            <CTAButton 
+              size="xl" 
+              showArrow
+              action="whatsapp"
+              whatsappMessage="Quero meu raio-x comercial"
+            >
               QUERO MEU RAIO-X COMERCIAL
+            </CTAButton>
+            <CTAButton 
+              size="xl" 
+              variant="secondary"
+              action="form"
+            >
+              PREENCHER FORMULÁRIO
             </CTAButton>
           </div>
         </div>

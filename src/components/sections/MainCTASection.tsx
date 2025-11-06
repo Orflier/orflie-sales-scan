@@ -51,10 +51,24 @@ const MainCTASection = () => {
               ))}
             </div>
 
-            {/* CTA Button */}
-            <div className="text-center mb-6">
-              <CTAButton size="xl" showArrow className="w-full md:w-auto">
-                QUERO MEU RAIO-X GRATUITO
+            {/* CTA Buttons */}
+            <div className="flex flex-col gap-4 mb-6">
+              <CTAButton 
+                size="xl" 
+                showArrow 
+                className="w-full md:w-auto"
+                action="whatsapp"
+                whatsappMessage="Quero meu raio-x comercial"
+              >
+                QUERO MEU RAIO-X COMERCIAL
+              </CTAButton>
+              <CTAButton 
+                size="xl" 
+                variant="secondary"
+                className="w-full md:w-auto"
+                action="form"
+              >
+                PREENCHER FORMULÁRIO
               </CTAButton>
             </div>
 

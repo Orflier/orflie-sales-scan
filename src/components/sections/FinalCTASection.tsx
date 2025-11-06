@@ -21,15 +21,25 @@ const FinalCTASection = () => {
             Ou pode agendar uma call de 15 minutos que pode mudar sua margem para sempre.
           </p>
 
-          {/* CTA Button */}
-          <div className="mb-8 max-w-2xl mx-auto">
+          {/* CTA Buttons */}
+          <div className="flex flex-col gap-4 mb-8 max-w-2xl mx-auto">
             <CTAButton 
               variant="secondary" 
               size="xl"
               showArrow
               className="shadow-2xl"
+              action="whatsapp"
+              whatsappMessage="Quero meu raio-x comercial"
             >
-              QUERO MEU RAIO-X COMERCIAL GRATUITO
+              QUERO MEU RAIO-X COMERCIAL
+            </CTAButton>
+            <CTAButton 
+              variant="primary" 
+              size="xl"
+              className="shadow-2xl"
+              action="form"
+            >
+              PREENCHER FORMULÁRIO
             </CTAButton>
           </div>
 
