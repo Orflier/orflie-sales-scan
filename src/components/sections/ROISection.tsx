@@ -33,9 +33,9 @@ const ROISection = () => {
             </div>
 
             {/* Return */}
-            <Card className="p-6 sm:p-8 text-center animate-fade-in bg-accent border-none" style={{ animationDelay: '0.4s' }}>
+            <Card className="p-6 sm:p-8 text-center animate-fade-in bg-accent border-none overflow-hidden" style={{ animationDelay: '0.4s' }}>
               <p className="text-white/90 mb-2 font-medium text-sm sm:text-base">Recuperação Média</p>
-              <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-white whitespace-nowrap">R$ 90.000</p>
+              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white">R$ 90.000</p>
               <p className="text-white/80 mt-2 text-xs sm:text-sm">Nos primeiros 90 dias</p>
             </Card>
           </div>

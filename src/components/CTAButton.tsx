@@ -43,12 +43,12 @@ const CTAButton = ({
         ${sizeClasses[size]}
         font-bold uppercase rounded-full shadow-lg hover:shadow-xl
         transition-all duration-300 hover:scale-105
-        w-full sm:w-auto whitespace-normal leading-tight
+        w-full sm:w-auto whitespace-nowrap leading-tight
         ${className}
       `}
     >
-      <a href={href} target="_blank" rel="noopener noreferrer">
-        <span className="inline-block">{children}</span>
+      <a href={href} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+        {children}
         {showArrow && <ArrowRight className="ml-2 flex-shrink-0" />}
       </a>
     </Button>
