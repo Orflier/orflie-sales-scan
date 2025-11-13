@@ -67,7 +67,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-white/80 hover:text-accent transition-colors">
                 <Mail size={18} />
-                <a href="mailto:contato@orflie.com">contato@orflie.com</a>
+                <a href="mailto:comercial@orflie.com.br">comercial@orflie.com.br</a>
               </li>
               <li className="flex items-center gap-2 text-white/80 hover:text-accent transition-colors">
                 <Phone size={18} />
