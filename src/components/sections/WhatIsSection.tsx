@@ -73,9 +73,9 @@ const WhatIsSection = () => {
               </ul>
             </Card>
             
-            <Card className="p-6 sm:p-8 bg-accent/10 border-accent/20">
-              <h4 className="text-xl sm:text-2xl font-bold text-accent mb-3 sm:mb-4">Depois</h4>
-              <ul className="space-y-2 text-sm sm:text-base text-foreground">
+            <Card className="p-6 sm:p-8 bg-accent border-accent">
+              <h4 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Depois</h4>
+              <ul className="space-y-2 text-sm sm:text-base text-white">
                 <li>✓ Processos otimizados</li>
                 <li>✓ Vendas previsíveis</li>
                 <li>✓ Time alinhado e produtivo</li>
