@@ -11,6 +11,7 @@ import GuaranteesSection from "@/components/sections/GuaranteesSection";
 import ROISection from "@/components/sections/ROISection";
 import FinalCTASection from "@/components/sections/FinalCTASection";
 import Footer from "@/components/sections/Footer";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 const Index = () => {
   return (
@@ -32,6 +33,7 @@ const Index = () => {
       </main>
 
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 };
