@@ -12,6 +12,7 @@ import ROISection from "@/components/sections/ROISection";
 import FinalCTASection from "@/components/sections/FinalCTASection";
 import Footer from "@/components/sections/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import ExitIntentModal from "@/components/ExitIntentModal";
 
 const Index = () => {
   return (
@@ -34,6 +35,7 @@ const Index = () => {
 
       <Footer />
       <FloatingWhatsApp />
+      <ExitIntentModal />
     </div>
   );
 };
