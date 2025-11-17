@@ -8,7 +8,6 @@ import CaseStudiesSection from "@/components/sections/CaseStudiesSection";
 import ForWhoSection from "@/components/sections/ForWhoSection";
 import MainCTASection from "@/components/sections/MainCTASection";
 import GuaranteesSection from "@/components/sections/GuaranteesSection";
-import ROISection from "@/components/sections/ROISection";
 import FinalCTASection from "@/components/sections/FinalCTASection";
 import Footer from "@/components/sections/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
@@ -29,7 +28,6 @@ const Index = () => {
         <ForWhoSection />
         <MainCTASection />
         <GuaranteesSection />
-        <ROISection />
         <FinalCTASection />
       </main>
 
