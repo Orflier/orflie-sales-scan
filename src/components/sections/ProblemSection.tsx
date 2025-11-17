@@ -50,13 +50,13 @@ const ProblemSection = () => {
 
         {/* Callout Box */}
         <div className="max-w-3xl mx-auto px-4">
-          <Card className="bg-accent-light border-l-4 border-accent p-6 sm:p-8 text-center animate-scale-in">
+          <Card className="bg-accent border-accent p-6 sm:p-8 text-center animate-scale-in">
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-3 sm:mb-4">
-              <AlertCircle className="text-accent flex-shrink-0" size={28} />
-              <h3 className="text-xl sm:text-2xl font-bold text-primary">Você sabia?</h3>
+              <AlertCircle className="text-white flex-shrink-0" size={28} />
+              <h3 className="text-xl sm:text-2xl font-bold text-white">Você sabia?</h3>
             </div>
-            <p className="text-base sm:text-lg md:text-xl text-foreground leading-relaxed break-words">
-              <span className="font-bold text-accent whitespace-nowrap">R$ 75.000/mês</span> é a média de prejuízo das empresas antes da Orflie entrar
+            <p className="text-base sm:text-lg md:text-xl text-white leading-relaxed break-words">
+              <span className="font-bold text-white whitespace-nowrap">R$ 75.000/mês</span> é a média de prejuízo das empresas antes da Orflie entrar
             </p>
           </Card>
         </div>
