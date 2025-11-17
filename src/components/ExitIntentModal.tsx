@@ -68,7 +68,7 @@ const ExitIntentModal = () => {
               </ul>
             </div>
 
-            <div className="pt-4">
+            <div className="pt-4 space-y-3">
               <CTAButton 
                 action="form"
                 size="lg"
@@ -78,9 +78,19 @@ const ExitIntentModal = () => {
                 GARANTIR MINHA VAGA AGORA
               </CTAButton>
               
+              <CTAButton 
+                action="whatsapp"
+                variant="secondary"
+                size="lg"
+                className="w-full border-2 border-accent"
+                whatsappMessage="Olá, estou com dúvidas sobre a Auditoria Comercial da Orflie"
+              >
+                TIRAR DÚVIDAS PELO WHATSAPP
+              </CTAButton>
+              
               <button
                 onClick={() => setIsOpen(false)}
-                className="mt-4 text-sm text-muted-foreground hover:text-foreground transition-colors underline"
+                className="mt-2 text-sm text-muted-foreground hover:text-foreground transition-colors underline w-full"
               >
                 Não, prefiro continuar perdendo dinheiro
               </button>
