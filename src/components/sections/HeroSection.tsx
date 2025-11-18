@@ -21,8 +21,8 @@ const HeroSection = () => {
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight font-['Montserrat'] break-words px-2">
-            Você Está Perdendo R$ 75.000/mês em Vendas e Nem Sabe Onde Está o Rombo.
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6 leading-tight font-['Montserrat'] break-words px-2">
+            Você está perdendo <span className="whitespace-nowrap">R$ 75.000/mês</span> em vendas e nem sabe onde está o rombo.
           </h1>
 
           {/* Subheadline */}
