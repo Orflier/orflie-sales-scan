@@ -76,7 +76,7 @@
             }
         }
 
-        msg_final += decodeURIComponent(escape(" " + phrase + " " + product_name));
+        msg_final += " " + phrase + " " + product_name;
 
         if (color == "verde") {
             Notiflix.Notify.Success(msg_final, option);
