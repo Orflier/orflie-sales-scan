@@ -14,7 +14,7 @@ const DiagnosticFormSection = () => {
 
   if (isSubmitted) {
     return (
-      <section id="diagnostico-express" className="py-16 sm:py-20 bg-gradient-to-br from-primary-light to-primary-dark">
+      <section id="diagnostico-express" className="py-10 sm:py-12 bg-gradient-to-br from-primary-light to-primary-dark scroll-mt-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center text-white">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
@@ -30,11 +30,11 @@ const DiagnosticFormSection = () => {
   }
 
   return (
-    <section id="diagnostico-express" className="py-16 sm:py-20 bg-gradient-to-br from-primary-light to-primary-dark">
+    <section id="diagnostico-express" className="py-10 sm:py-12 bg-gradient-to-br from-primary-light to-primary-dark scroll-mt-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-10 sm:mb-12">
+          <div className="text-center mb-8 sm:mb-10">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
               Diagnóstico Express – Preencha e receba seu raio-X comercial
             </h2>
