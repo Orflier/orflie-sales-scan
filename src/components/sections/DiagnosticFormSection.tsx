@@ -36,10 +36,12 @@ const DiagnosticFormSection = () => {
           {/* Header */}
           <div className="text-center mb-10 sm:mb-12">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
-              Diagnóstico Express – Descubra onde sua operação está vazando dinheiro
+              Diagnóstico Express – Preencha e receba seu raio-X comercial
             </h2>
             <p className="text-base sm:text-lg text-white/90 leading-relaxed">
-              Preencha em até 5 minutos e receba um raio-X dos seus 3 maiores gargalos comerciais + um script de próximo passo para suas propostas.
+              Em até 5 minutos você responde e recebe:<br />
+              • um raio-X dos 3 maiores gargalos da sua operação comercial<br />
+              • um script de próximo passo para destravar propostas paradas no "te aviso"
             </p>
           </div>
 

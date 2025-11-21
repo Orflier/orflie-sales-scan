@@ -57,18 +57,18 @@ const MainCTASection = () => {
                 size="xl" 
                 showArrow 
                 className="w-full md:w-auto"
-                action="whatsapp"
-                whatsappMessage="Quero meu raio-x comercial"
-              >
-                QUERO MEU RAIO-X COMERCIAL
-              </CTAButton>
-              <CTAButton 
-                size="xl" 
-                variant="secondary"
-                className="w-full md:w-auto"
                 action="form"
               >
-                PREENCHER FORMULÁRIO
+                PREENCHER DIAGNÓSTICO EXPRESS
+              </CTAButton>
+              <CTAButton 
+                size="lg" 
+                variant="secondary"
+                className="w-full md:w-auto opacity-80"
+                action="whatsapp"
+                whatsappMessage="Olá, quero falar com um especialista sobre a Auditoria Comercial"
+              >
+                Quero falar com um especialista
               </CTAButton>
             </div>
 

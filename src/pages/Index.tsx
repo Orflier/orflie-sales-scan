@@ -80,7 +80,6 @@ const Index = () => {
       
       <main>
         <HeroSection />
-        <DiagnosticFormSection />
         <ProblemSection />
         <WhatIsSection />
         <LeaksSection />
@@ -90,6 +89,7 @@ const Index = () => {
         <MainCTASection />
         <GuaranteesSection />
         <FinalCTASection />
+        <DiagnosticFormSection />
       </main>
 
       <Footer />
