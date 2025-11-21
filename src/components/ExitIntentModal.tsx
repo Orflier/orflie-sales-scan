@@ -7,7 +7,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import CTAButton from "./CTAButton";
-import { AlertCircle, Clock } from "lucide-react";
+import { AlertCircle, Clock, ArrowRight } from "lucide-react";
 
 const ExitIntentModal = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,7 +44,7 @@ const ExitIntentModal = () => {
           <DialogDescription className="text-center space-y-2.5 sm:space-y-3 pt-2 sm:pt-3">
             <p className="text-sm sm:text-base font-semibold text-foreground">
               Você está a um clique de descobrir os vazamentos que podem estar custando{" "}
-              <span className="text-accent font-bold whitespace-nowrap">R$ 75 mil/mês</span> para sua empresa!
+              <span className="text-accent font-bold whitespace-nowrap">R$ 75 mil/mês</span> para a sua empresa!
             </p>
             
             <div className="bg-accent/10 p-2.5 sm:p-3 rounded-lg border-l-4 border-accent">
@@ -59,7 +59,7 @@ const ExitIntentModal = () => {
             </div>
 
             <div className="space-y-1.5 text-left bg-primary/5 p-2.5 sm:p-3 rounded-lg">
-              <p className="font-semibold text-xs sm:text-sm text-foreground">✅ Ao preencher você garante:</p>
+              <p className="font-semibold text-xs sm:text-sm text-foreground">✅ Ao preencher o diagnóstico express você garante:</p>
               <ul className="text-xs text-foreground/80 space-y-0.5 ml-3">
                 <li>• Diagnóstico gratuito de 15 min</li>
                 <li>• Análise dos 7 vazamentos</li>
@@ -69,23 +69,27 @@ const ExitIntentModal = () => {
             </div>
 
             <div className="pt-2 space-y-2">
-              <CTAButton 
-                action="form"
-                size="lg"
-                className="w-full text-sm sm:text-base"
-                showArrow
+              <button
+                onClick={() => {
+                  setIsOpen(false);
+                  setTimeout(() => {
+                    document.getElementById('diagnostico-express')?.scrollIntoView({ behavior: 'smooth' });
+                  }, 300);
+                }}
+                className="w-full bg-accent hover:bg-accent-hover text-white px-6 py-4 text-sm sm:text-base font-bold uppercase rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 flex items-center justify-center"
               >
-                GARANTIR MINHA VAGA
-              </CTAButton>
+                PREENCHER DIAGNÓSTICO EXPRESS
+                <ArrowRight className="ml-2 flex-shrink-0" />
+              </button>
               
               <CTAButton 
                 action="whatsapp"
                 variant="secondary"
                 size="lg"
                 className="w-full border-2 border-accent text-xs sm:text-sm"
-                whatsappMessage="Olá, estou com dúvidas sobre a Auditoria Comercial da Orflie"
+                whatsappMessage="Olá, quero falar com um especialista sobre a Auditoria Comercial"
               >
-                TIRAR DÚVIDAS
+                QUERO FALAR COM UM ESPECIALISTA
               </CTAButton>
               
               <button

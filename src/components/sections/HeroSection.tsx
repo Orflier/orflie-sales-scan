@@ -56,12 +56,12 @@ const HeroSection = () => {
               RESPONDER DIAGNÓSTICO EXPRESS (5 MIN)
             </a>
             <a
-              href="https://wa.me/5515981103458?text=Oi%2C%20quero%20tirar%20d%C3%BAvidas%20sobre%20a%20Auditoria%20Comercial"
+              href="https://wa.me/5515981103458?text=Oi%2C%20quero%20falar%20com%20um%20especialista%20sobre%20a%20Auditoria%20Comercial"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white border-2 border-white/80 hover:bg-white/10 px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base font-medium rounded-full transition-all duration-300"
+              className="text-white/80 border border-white/50 hover:bg-white/10 px-3 sm:px-4 py-2 text-xs sm:text-sm font-normal rounded-full transition-all duration-300"
             >
-              Tirar dúvidas no WhatsApp
+              Quero falar com um especialista
             </a>
           </div>
         </div>

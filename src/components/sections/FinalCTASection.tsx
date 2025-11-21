@@ -24,22 +24,22 @@ const FinalCTASection = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col gap-4 mb-8 max-w-2xl mx-auto">
             <CTAButton 
-              variant="secondary" 
+              variant="primary" 
               size="xl"
               showArrow
               className="shadow-2xl"
-              action="whatsapp"
-              whatsappMessage="Quero meu raio-x comercial"
-            >
-              QUERO MEU RAIO-X COMERCIAL
-            </CTAButton>
-            <CTAButton 
-              variant="primary" 
-              size="xl"
-              className="shadow-2xl"
               action="form"
             >
-              PREENCHER FORMULÁRIO
+              PREENCHER DIAGNÓSTICO EXPRESS
+            </CTAButton>
+            <CTAButton 
+              variant="secondary" 
+              size="lg"
+              className="shadow-lg opacity-80"
+              action="whatsapp"
+              whatsappMessage="Olá, quero falar com um especialista sobre a Auditoria Comercial"
+            >
+              Quero falar com um especialista
             </CTAButton>
           </div>
 
