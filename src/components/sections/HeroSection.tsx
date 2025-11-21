@@ -26,41 +26,43 @@ const HeroSection = () => {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-8 sm:mb-10 leading-relaxed max-w-4xl mx-auto break-words px-2">Descubra os 7 Vazamentos que Estão Destruindo sua Receita e como estancar tudo em 30 dias com a Auditoria Comercial da Orflie.</p>
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-6 sm:mb-8 leading-relaxed max-w-4xl mx-auto break-words px-2">
+            Descubra os 7 vazamentos que estão destruindo sua receita e veja, em poucos minutos, onde sua operação está deixando dinheiro na mesa.
+          </p>
 
-          {/* Trust Badges */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 mb-8 sm:mb-10 text-white px-4">
-            <div className="flex items-center gap-2">
-              <CheckCircle className="text-accent flex-shrink-0" size={20} />
-              <span className="font-medium text-sm sm:text-base">Diagnóstico gratuito de 15 minutos</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <CheckCircle className="text-accent flex-shrink-0" size={20} />
-              <span className="font-medium text-sm sm:text-base">Sem enrolação</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <CheckCircle className="text-accent flex-shrink-0" size={20} />
-              <span className="font-medium text-sm sm:text-base">Sem compromisso</span>
-            </div>
+          {/* Microtexto com benefícios */}
+          <div className="text-white/90 mb-8 sm:mb-10 max-w-3xl mx-auto px-4">
+            <p className="text-sm sm:text-base md:text-lg mb-3 font-medium">
+              Responda um diagnóstico rápido em até 5 minutos e receba:
+            </p>
+            <ul className="text-left inline-block text-sm sm:text-base space-y-2">
+              <li className="flex items-start gap-2">
+                <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                <span>um raio-X dos 3 maiores gargalos da sua operação comercial</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                <span>um script pronto para destravar propostas paradas no "te aviso"</span>
+              </li>
+            </ul>
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col gap-4 max-w-md mx-auto">
-            <CTAButton 
-              size="xl" 
-              showArrow
-              action="whatsapp"
-              whatsappMessage="Quero meu raio-x comercial"
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-2xl mx-auto px-4">
+            <a
+              href="#diagnostico-express"
+              className="w-full sm:w-auto bg-accent hover:bg-accent-hover text-white px-6 sm:px-12 py-4 sm:py-6 text-base sm:text-xl font-bold uppercase rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-center"
             >
-              QUERO MEU RAIO-X COMERCIAL
-            </CTAButton>
-            <CTAButton 
-              size="xl" 
-              variant="secondary"
-              action="form"
+              RESPONDER DIAGNÓSTICO EXPRESS (5 MIN)
+            </a>
+            <a
+              href="https://wa.me/5515981103458?text=Oi%2C%20quero%20tirar%20d%C3%BAvidas%20sobre%20a%20Auditoria%20Comercial"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white border-2 border-white/80 hover:bg-white/10 px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base font-medium rounded-full transition-all duration-300"
             >
-              PREENCHER FORMULÁRIO
-            </CTAButton>
+              Tirar dúvidas no WhatsApp
+            </a>
           </div>
         </div>
       </div>
