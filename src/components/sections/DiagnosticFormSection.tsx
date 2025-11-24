@@ -14,10 +14,10 @@ const DiagnosticFormSection = () => {
 
   if (isSubmitted) {
     return (
-      <section id="diagnostico-express" className="py-10 sm:py-12 bg-gradient-to-br from-primary-light to-primary-dark scroll-mt-20">
+      <section id="diagnostico-express" className="py-8 sm:py-10 bg-gradient-to-br from-primary-light to-primary-dark scroll-mt-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center text-white">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-4">
               Diagnóstico enviado com sucesso! 🎉
             </h2>
             <p className="text-lg sm:text-xl">
@@ -30,15 +30,15 @@ const DiagnosticFormSection = () => {
   }
 
   return (
-    <section id="diagnostico-express" className="py-10 sm:py-12 bg-gradient-to-br from-primary-light to-primary-dark scroll-mt-20">
+    <section id="diagnostico-express" className="py-8 sm:py-10 bg-gradient-to-br from-primary-light to-primary-dark scroll-mt-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-8 sm:mb-10">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
+          <div className="text-center mb-6 sm:mb-8">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3 sm:mb-4">
               Diagnóstico Express – Preencha e receba seu raio-X comercial
             </h2>
-            <p className="text-base sm:text-lg text-white/90 leading-relaxed">
+            <p className="text-sm sm:text-base text-white/90 leading-relaxed">
               Em até 5 minutos você responde e recebe:<br />
               • um raio-X dos 3 maiores gargalos da sua operação comercial<br />
               • um script de próximo passo para destravar propostas paradas no "te aviso"
