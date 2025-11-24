@@ -47,6 +47,8 @@ const DiagnosticFormSection = () => {
             onSubmit={handleSubmit}
             className="bg-white rounded-2xl shadow-2xl p-6 sm:p-8 lg:p-10 space-y-5"
           >
+            {/* CAMPOS OBRIGATÓRIOS */}
+            
             {/* Nome */}
             <div className="form-group">
               <label htmlFor="nome" className="block text-sm font-semibold text-gray-700 mb-2">
@@ -96,66 +98,6 @@ const DiagnosticFormSection = () => {
               </select>
             </div>
 
-            {/* Segmento */}
-            <div className="form-group">
-              <label htmlFor="segmento" className="block text-sm font-semibold text-gray-700 mb-2">
-                Segmento*
-              </label>
-              <select
-                id="segmento"
-                name="segmento"
-                required
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent transition-all"
-              >
-                <option value="">Selecione</option>
-                <option value="Saúde / Estética">Saúde / Estética</option>
-                <option value="Educação">Educação</option>
-                <option value="Distribuidora / Indústria">Distribuidora / Indústria</option>
-                <option value="SaaS / Software">SaaS / Software</option>
-                <option value="Serviços Profissionais">Serviços Profissionais</option>
-                <option value="Outro">Outro</option>
-              </select>
-            </div>
-
-            {/* Tamanho do time */}
-            <div className="form-group">
-              <label htmlFor="tamanho_time" className="block text-sm font-semibold text-gray-700 mb-2">
-                Tamanho do time comercial*
-              </label>
-              <select
-                id="tamanho_time"
-                name="tamanho_time"
-                required
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent transition-all"
-              >
-                <option value="">Selecione</option>
-                <option value="Só eu">Só eu</option>
-                <option value="2–3">2–3</option>
-                <option value="4–7">4–7</option>
-                <option value="8 ou mais">8 ou mais</option>
-              </select>
-            </div>
-
-            {/* Faturamento */}
-            <div className="form-group">
-              <label htmlFor="faturamento" className="block text-sm font-semibold text-gray-700 mb-2">
-                Faturamento mensal*
-              </label>
-              <select
-                id="faturamento"
-                name="faturamento"
-                required
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent transition-all"
-              >
-                <option value="">Selecione</option>
-                <option value="Até R$30k">Até R$30k</option>
-                <option value="R$30–100k">R$30–100k</option>
-                <option value="R$100–300k">R$100–300k</option>
-                <option value="R$300–500k">R$300–500k</option>
-                <option value="R$500k+">R$500k+</option>
-              </select>
-            </div>
-
             {/* Email */}
             <div className="form-group">
               <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
@@ -182,8 +124,74 @@ const DiagnosticFormSection = () => {
                 name="whatsapp"
                 required
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent transition-all"
-                placeholder="(15) 98110-3458"
+                placeholder="(DDD) 9XXXX-XXXX"
               />
+            </div>
+
+            {/* Separador para campos opcionais */}
+            <div className="pt-4 border-t border-gray-200">
+              <p className="text-sm text-gray-600 mb-4 text-center font-medium">
+                Campos abaixo são opcionais, mas ajudam a deixar o diagnóstico ainda mais preciso:
+              </p>
+            </div>
+
+            {/* CAMPOS OPCIONAIS */}
+
+            {/* Segmento */}
+            <div className="form-group">
+              <label htmlFor="segmento" className="block text-sm font-semibold text-gray-700 mb-2">
+                Segmento (opcional)
+              </label>
+              <select
+                id="segmento"
+                name="segmento"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent transition-all"
+              >
+                <option value="">Selecione</option>
+                <option value="Saúde / Estética">Saúde / Estética</option>
+                <option value="Educação">Educação</option>
+                <option value="Distribuidora / Indústria">Distribuidora / Indústria</option>
+                <option value="SaaS / Software">SaaS / Software</option>
+                <option value="Serviços Profissionais">Serviços Profissionais</option>
+                <option value="Outro">Outro</option>
+              </select>
+            </div>
+
+            {/* Tamanho do time */}
+            <div className="form-group">
+              <label htmlFor="tamanho_time" className="block text-sm font-semibold text-gray-700 mb-2">
+                Tamanho do time comercial (opcional)
+              </label>
+              <select
+                id="tamanho_time"
+                name="tamanho_time"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent transition-all"
+              >
+                <option value="">Selecione</option>
+                <option value="Só eu">Só eu</option>
+                <option value="2–3">2–3</option>
+                <option value="4–7">4–7</option>
+                <option value="8 ou mais">8 ou mais</option>
+              </select>
+            </div>
+
+            {/* Faturamento */}
+            <div className="form-group">
+              <label htmlFor="faturamento" className="block text-sm font-semibold text-gray-700 mb-2">
+                Faturamento mensal (opcional)
+              </label>
+              <select
+                id="faturamento"
+                name="faturamento"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent transition-all"
+              >
+                <option value="">Selecione</option>
+                <option value="Até R$30k">Até R$30k</option>
+                <option value="R$30–100k">R$30–100k</option>
+                <option value="R$100–300k">R$100–300k</option>
+                <option value="R$300–500k">R$300–500k</option>
+                <option value="R$500k+">R$500k+</option>
+              </select>
             </div>
 
             {/* Desafio */}
@@ -209,10 +217,28 @@ const DiagnosticFormSection = () => {
               {isSubmitting ? "Enviando..." : "Enviar diagnóstico express"}
             </button>
 
-            {/* Privacy note */}
-            <p className="text-xs text-gray-500 text-center mt-4">
-              Seus dados estão seguros e não serão compartilhados com terceiros.
-            </p>
+            {/* Benefits/Security microcopy */}
+            <div className="space-y-3 mt-6">
+              <div className="text-sm text-gray-700 space-y-1">
+                <p className="flex items-center gap-2">
+                  <span className="text-green-600">✔</span>
+                  <span>Leva menos de 5 minutos</span>
+                </p>
+                <p className="flex items-center gap-2">
+                  <span className="text-green-600">✔</span>
+                  <span>Diagnóstico gratuito, sem compromisso</span>
+                </p>
+                <p className="flex items-center gap-2">
+                  <span className="text-green-600">✔</span>
+                  <span>Você recebe recomendações práticas para aplicar no seu time</span>
+                </p>
+              </div>
+
+              {/* Privacy note */}
+              <p className="text-xs text-gray-500 text-center pt-2">
+                Seus dados estão seguros e não serão compartilhados com terceiros.
+              </p>
+            </div>
           </form>
         </div>
       </div>
