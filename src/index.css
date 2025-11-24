@@ -20,6 +20,7 @@ All colors MUST be HSL.
     /* Navy Blue Primary Colors */
     --primary: 214 50% 24%;
     --primary-foreground: 0 0% 100%;
+    --primary-light: 214 45% 32%;
     --primary-dark: 214 55% 18%;
     
     /* Vibrant Orange Accent Colors */
