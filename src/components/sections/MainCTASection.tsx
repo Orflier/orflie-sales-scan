@@ -4,8 +4,8 @@ import CTAButton from "../CTAButton";
 
 const benefits = [
   "Identificação clara dos seus vazamentos de receita",
-  "Mapa completo de onde está o dinheiro perdido",
-  "Orientação sobre os próximos passos estratégicos"
+  "Visão de onde está o dinheiro perdido no funil",
+  "Orientação sobre os próximos passos estratégicos (com ou sem Auditoria completa)"
 ];
 
 const MainCTASection = () => {
@@ -30,11 +30,11 @@ const MainCTASection = () => {
             </div>
 
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4 sm:mb-6 text-center font-['Montserrat'] break-words px-2">
-              RAIO-X COMERCIAL GRATUITO (15 MIN)
+              Diagnóstico Express gratuito (15 min)
             </h2>
 
             <p className="text-base sm:text-lg md:text-xl text-center text-muted-foreground mb-6 sm:mb-8 break-words">
-              Antes de fechar qualquer coisa, vamos fazer um diagnóstico rápido e gratuito da sua operação
+              Antes de qualquer proposta, começamos com um diagnóstico rápido da sua operação. Em poucos minutos, identificamos os principais vazamentos de receita e te mostramos onde você está deixando dinheiro na mesa – sem compromisso.
             </p>
 
             {/* Benefits */}

@@ -33,6 +33,10 @@ const WhatIsSection = () => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-3 sm:mb-4 font-['Montserrat'] break-words px-2">
             Auditoria Comercial = Raio-X Total da Sua Operação de Vendas
           </h2>
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto break-words px-4 mb-4">
+            Depois do Diagnóstico Express, se fizer sentido para o seu momento, nós aprofundamos com a <span className="font-bold text-primary">Auditoria Comercial de 30 dias</span>. 
+            É aqui que mapeamos a fundo processos, time, funil e números para transformar sua operação em uma máquina de crescimento previsível.
+          </p>
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto break-words px-4">
             Não é teoria. Não é PowerPoint. Não é papo de mindset.<br className="hidden sm:block" />
             <span className="sm:hidden"> </span>É cirúrgico, prático e orientado por números.

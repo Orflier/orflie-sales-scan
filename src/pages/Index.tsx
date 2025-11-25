@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/sections/HeroSection";
 import DiagnosticFormSection from "@/components/sections/DiagnosticFormSection";
 import ProblemSection from "@/components/sections/ProblemSection";
+import DiagnosticExpressSection from "@/components/sections/DiagnosticExpressSection";
 import WhatIsSection from "@/components/sections/WhatIsSection";
 import LeaksSection from "@/components/sections/LeaksSection";
 import ProcessSection from "@/components/sections/ProcessSection";
@@ -81,6 +82,7 @@ const Index = () => {
       <main>
         <HeroSection />
         <ProblemSection />
+        <DiagnosticExpressSection />
         <WhatIsSection />
         <LeaksSection />
         <ProcessSection />
