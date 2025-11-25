@@ -22,12 +22,12 @@ const HeroSection = () => {
 
           {/* Main Headline */}
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6 leading-tight font-['Montserrat'] break-words px-2">
-            Você está perdendo <span className="whitespace-nowrap">R$ 75.000/mês</span> em vendas e nem sabe onde está o rombo.
+            Quantas propostas boas hoje estão paradas no "te aviso"?
           </h1>
 
           {/* Subheadline */}
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-6 sm:mb-8 leading-relaxed max-w-4xl mx-auto break-words px-2">
-            Descubra os 7 vazamentos que estão destruindo sua receita e veja, em poucos minutos, onde sua operação está deixando dinheiro na mesa.
+            Em um diagnóstico express de 5 minutos, você descobre onde seu funil está vazando dinheiro em leads, agenda e follow-up — antes de mexer no time ou aumentar a mídia.
           </p>
 
           {/* Microtexto com benefícios */}

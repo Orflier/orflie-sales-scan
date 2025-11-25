@@ -14,11 +14,11 @@ const FinalCTASection = () => {
         <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
           {/* Main Message */}
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-6 sm:mb-8 leading-tight font-['Montserrat'] break-words px-2">
-            Você pode continuar operando no escuro e perdendo R$ 75.000/mês.
+            Você pode continuar ajustando seu comercial no escuro, na base da tentativa e erro…
           </h2>
           
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-white/95 mb-8 sm:mb-12 leading-relaxed break-words px-2">
-            Ou pode agendar uma call de 15 minutos que pode mudar sua margem para sempre.
+            Ou investir 5 minutos para ter clareza de onde está vazando dinheiro hoje, com próximos passos práticos para o seu time.
           </p>
 
           {/* CTA Buttons */}

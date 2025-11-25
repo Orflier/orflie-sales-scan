@@ -56,9 +56,16 @@ const ProblemSection = () => {
               <h3 className="text-xl sm:text-2xl font-bold text-white">Você sabia?</h3>
             </div>
             <p className="text-base sm:text-lg md:text-xl text-white leading-relaxed break-words">
-              <span className="font-bold text-white whitespace-nowrap">R$ 75.000/mês</span> é a média de prejuízo das empresas antes da Orflie entrar
+              <span className="font-bold text-white whitespace-nowrap">R$ 75.000/mês</span> é a média de receita perdida que encontramos ao analisar operações comerciais antes da Orflie entrar.
             </p>
           </Card>
+        </div>
+
+        {/* Transition to Diagnostic */}
+        <div className="max-w-3xl mx-auto px-4 mt-12 text-center">
+          <p className="text-base sm:text-lg text-muted-foreground leading-relaxed break-words">
+            Se você se reconhece em pelo menos um desses pontos, o <span className="font-bold text-primary">Diagnóstico Express</span> já é suficiente para mostrar onde está vazando dinheiro hoje.
+          </p>
         </div>
       </div>
     </section>
