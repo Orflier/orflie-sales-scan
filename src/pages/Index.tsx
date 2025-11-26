@@ -15,6 +15,7 @@ import FinalCTASection from "@/components/sections/FinalCTASection";
 import Footer from "@/components/sections/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import ExitIntentModal from "@/components/ExitIntentModal";
+import MobileStickyCTA from "@/components/MobileStickyCTA";
 
 // Declaração de tipos para fbq e gtag
 declare global {
@@ -97,6 +98,7 @@ const Index = () => {
       <Footer />
       <FloatingWhatsApp />
       <ExitIntentModal />
+      <MobileStickyCTA />
     </div>
   );
 };
