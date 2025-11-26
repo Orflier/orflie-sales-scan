@@ -46,7 +46,7 @@ const DiagnosticExpressSection = () => {
             </div>
 
             {/* CTA */}
-            <div className="flex justify-center">
+            <div className="flex flex-col items-center justify-center gap-2">
               <CTAButton 
                 size="xl" 
                 showArrow
@@ -55,10 +55,13 @@ const DiagnosticExpressSection = () => {
               >
                 PREENCHER DIAGNÓSTICO EXPRESS
               </CTAButton>
+              <p className="text-xs sm:text-sm text-center text-muted-foreground break-words px-4">
+                Leva menos de 5 minutos • Diagnóstico gratuito, sem compromisso
+              </p>
             </div>
 
             {/* Note */}
-            <p className="text-xs sm:text-sm text-center text-muted-foreground mt-6 break-words px-4">
+            <p className="text-xs sm:text-sm text-center text-muted-foreground mt-4 break-words px-4">
               Aqui não entraremos ainda em detalhes de auditoria completa de 30 dias. Esse diagnóstico é só para você ter clareza do primeiro passo.
             </p>
           </Card>
