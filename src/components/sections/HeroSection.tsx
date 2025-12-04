@@ -24,7 +24,7 @@ const HeroSection = () => {
           <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-6 leading-tight font-['Montserrat'] break-words px-2">Quantas propostas boas hoje estão paradas no "te aviso"?</h1>
 
           {/* Subheadline */}
-          <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-4 sm:mb-8 leading-relaxed max-w-4xl mx-auto break-words px-2">Em um diagnóstico express de 5 minutos, você descobre onde seu funil está vazando dinheiro em leads, agenda e follow-up — antes de mexer no time ou aumentar a mídia.</p>
+          <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-4 sm:mb-8 leading-relaxed max-w-4xl mx-auto break-words px-2">Em um diagnóstico express de 5 minutos, você descobre onde seu funil está vazando dinheiro em leads, agenda e follow-up antes de mexer no time ou aumentar a mídia.</p>
 
           {/* Microtexto com benefícios */}
           <div className="text-white/90 mb-6 sm:mb-10 max-w-3xl mx-auto px-4">
