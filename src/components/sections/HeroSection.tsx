@@ -45,11 +45,11 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 max-w-2xl mx-auto px-4">
-            <a href="#diagnostico-express" className="w-full sm:w-auto bg-accent hover:bg-accent-hover text-white px-6 sm:px-12 py-3 sm:py-6 text-sm sm:text-xl font-bold uppercase rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-center whitespace-nowrap">
+            <a href="#diagnostico-express" className="w-full sm:w-auto bg-accent hover:bg-accent-hover text-white px-4 sm:px-12 py-3 sm:py-6 text-xs sm:text-xl font-bold uppercase rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-center leading-tight">
               RESPONDER DIAGNÓSTICO EXPRESS (5 MIN)
             </a>
-            <a href="https://wa.me/5515981103458?text=Oi%2C%20vi%20a%20Auditoria%20Comercial%20da%20Orflie%20e%20quero%20um%20diagn%C3%B3stico%20r%C3%A1pido%20da%20minha%20opera%C3%A7%C3%A3o.%20Minha%20empresa%20%C3%A9%20___%2C%20faturamos%20aproximadamente%20___%20por%20m%C3%AAs%20e%20temos%20___%20vendedores." target="_blank" rel="noopener noreferrer" className="text-white/80 border border-white/50 hover:bg-white/10 px-3 sm:px-4 py-2 text-xs sm:text-sm font-normal rounded-full transition-all duration-300">
-              Quero falar com um especialista
+            <a href="https://wa.me/5515981103458?text=Oi%2C%20vi%20a%20Auditoria%20Comercial%20da%20Orflie%20e%20quero%20um%20diagn%C3%B3stico%20r%C3%A1pido%20da%20minha%20opera%C3%A7%C3%A3o.%20Minha%20empresa%20%C3%A9%20___%2C%20faturamos%20aproximadamente%20___%20por%20m%C3%AAs%20e%20temos%20___%20vendedores." target="_blank" rel="noopener noreferrer" className="text-white/80 border border-white/50 hover:bg-white/10 px-3 sm:px-4 py-2 text-xs sm:text-sm font-normal rounded-full transition-all duration-300 text-center">
+              Falar com especialista
             </a>
           </div>
         </div>
