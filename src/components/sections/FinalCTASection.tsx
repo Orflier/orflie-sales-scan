@@ -2,7 +2,7 @@ import CTAButton from "../CTAButton";
 
 const FinalCTASection = () => {
   return (
-    <section className="min-h-screen py-16 sm:py-20 bg-gradient-to-br from-accent to-accent-hover relative overflow-hidden">
+    <section className="py-12 sm:py-20 bg-gradient-to-br from-accent to-accent-hover relative overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
