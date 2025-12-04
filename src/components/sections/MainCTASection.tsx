@@ -54,21 +54,21 @@ const MainCTASection = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col gap-4 mb-6">
               <CTAButton 
-                size="xl" 
+                size="lg" 
                 showArrow 
-                className="w-full md:w-auto"
+                className="w-full md:w-auto text-xs sm:text-base"
                 action="form"
               >
                 PREENCHER DIAGNÓSTICO EXPRESS
               </CTAButton>
               <CTAButton 
-                size="lg" 
+                size="default" 
                 variant="secondary"
-                className="w-full md:w-auto opacity-80"
+                className="w-full md:w-auto opacity-80 text-xs sm:text-sm"
                 action="whatsapp"
                 whatsappMessage="Olá, quero falar com um especialista sobre a Auditoria Comercial"
               >
-                Quero falar com um especialista
+                Falar com especialista
               </CTAButton>
             </div>
 
