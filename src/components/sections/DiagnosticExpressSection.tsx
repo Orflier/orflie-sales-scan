@@ -48,9 +48,9 @@ const DiagnosticExpressSection = () => {
             {/* CTA */}
             <div className="flex flex-col items-center justify-center gap-2">
               <CTAButton 
-                size="xl" 
+                size="lg" 
                 showArrow
-                className="w-full sm:w-auto"
+                className="w-full sm:w-auto text-xs sm:text-base"
                 action="form"
               >
                 PREENCHER DIAGNÓSTICO EXPRESS
